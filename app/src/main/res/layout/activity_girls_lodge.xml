@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/layout_background"
+    android:orientation="vertical"
+    tools:context=".Std_Room.Activityes.Girls_Lodge_Activity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+
+        <com.toptoche.searchablespinnerlibrary.SearchableSpinner
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:paddingLeft="8dp"
+            android:layout_marginLeft="13dp"
+            android:layout_marginRight="13dp"
+            app:hintText="Select Location..."
+            android:background="@drawable/location_select_spinner_bg"
+            android:id="@+id/search_spinner"
+            android:gravity="center_horizontal">
+
+        </com.toptoche.searchablespinnerlibrary.SearchableSpinner>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp"
+            android:visibility="gone"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/fragment_replace_layout">
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp"
+            android:id="@+id/all_lodge_frag">
+            <fragment
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:name="com.first.dumka.room_book_app.std_room.Std_Room.Fragment.All_Girls_Lodge_Frag">
+            </fragment>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

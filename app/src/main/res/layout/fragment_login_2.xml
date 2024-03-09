@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#5A5353"
+    android:clickable="true"
+    tools:context=".Std_Room.Fragment.Login_Fragment2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:id="@+id/login_interface"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="100dp"
+            android:fontFamily="monospace"
+            android:text="Login"
+            android:textColor="@color/color_white"
+            android:textSize="40sp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="-4dp"
+            android:text="Only for lodge owner"
+            android:textColor="@color/color_white"
+            android:textSize="15sp"></TextView>
+        <EditText
+            android:id="@+id/user_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginRight="25dp"
+            android:background="@drawable/login_edittext_bg"
+            android:drawableLeft="@drawable/ic_mail"
+            android:drawablePadding="8dp"
+            android:hint="Email Id"
+            android:inputType="textEmailAddress"
+            android:padding="13dp"
+            android:textColor="@color/color_white"
+            android:textColorHint="@color/color_white"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/user_pass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="25dp"
+            android:background="@drawable/login_edittext_bg"
+            android:drawableLeft="@drawable/ic_lock"
+            android:drawablePadding="8dp"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:padding="13dp"
+            android:textColor="@color/color_white"
+            android:textColorHint="@color/color_white"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/forgot_pass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="5dp"
+            android:text="Forgot Password?"
+            android:textColor="@color/color_white"
+            android:textSize="15sp" />
+
+        <android.widget.Button
+            android:id="@+id/login_b"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="25dp"
+            android:background="@drawable/login_edittext_bg"
+            android:padding="13dp"
+            android:text="Login"
+            android:textColor="@color/color_white" />
+
+    </LinearLayout>
+</FrameLayout>

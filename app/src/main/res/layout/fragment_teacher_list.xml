@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:clickable="true"
+    android:background="@color/layout_background"
+    tools:context=".Std_Room.Fragment.TeacherListFragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/dim_20dp"
+        android:orientation="vertical">
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dim_50dp"
+            android:paddingLeft="@dimen/dim_8dp"
+            android:layout_marginLeft="@dimen/dim_13dp"
+            android:layout_marginRight="@dimen/dim_13dp"
+            android:spinnerMode="dialog"
+            android:background="@drawable/gender_spinner_bg"
+            android:id="@+id/search_spinner"
+            android:gravity="center_horizontal"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="@dimen/dim_20dp"
+            android:visibility="visible"
+            android:layout_marginBottom="@dimen/dim_10dp"
+            android:id="@+id/fragment_replace_layout">
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</FrameLayout>

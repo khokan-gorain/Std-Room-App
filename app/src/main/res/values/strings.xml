@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Std-Room</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Home">Home</string>
+    <string name="Login">Login</string>
+    <string name="ContactUs">Contact Us</string>
+    <string name="AboutUs">About Us</string>
+    <string name="RateUs">Rate Us</string>
+    <string name="ShareApp">Share App</string>
+    <string name="Std_Room">Std-Room</string>
+    <!--    <string name="Rule1">It is forbidden to bring too many friends into the room.</string>-->
+    <!--    <string name="Rule2">Your room will have to be cleaned from time to time.</string>-->
+    <!--    <string name="Rule3">It is mandatory to enter the lodge by 8 pm.</string>-->
+    <!--    <string name="Rule4">An identity card is mandatory to stay in the lodge, such as Aadhaar card.</string>-->
+    <string name="PrivacyPolicy">Privacy Policy</string>
+    <string name="success">success</string>
+    <string name="RS">u20B9</string>
+
+</resources>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="none">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="@string/Home"
+            android:menuCategory="secondary"/>
+        <item
+            android:id="@+id/nav_login_page"
+            android:icon="@drawable/ic_baseline_account_circle_24"
+            android:menuCategory="secondary"
+            android:title="@string/Login" />
+
+        <item
+            android:id="@+id/nav_contact_us_page"
+            android:icon="@drawable/ic_baseline_perm_contact_calendar_24"
+            android:title="@string/ContactUs"
+            android:menuCategory="secondary"/>
+
+        <item
+            android:id="@+id/nav_about_us_page"
+            android:icon="@drawable/ic_baseline_info_24"
+            android:title="@string/AboutUs"
+            android:menuCategory="secondary"/>
+
+        <item
+            android:id="@+id/nav_rate_us"
+            android:icon="@drawable/ic_baseline_star_rate_24"
+            android:title="@string/RateUs"
+            android:menuCategory="secondary"/>
+        <item
+            android:id="@+id/nav_share_app"
+            android:icon="@drawable/ic_baseline_share_24"
+            android:title="@string/ShareApp"
+            android:menuCategory="secondary"/>
+        <item
+            android:id="@+id/nav_privacy_policy"
+            android:icon="@drawable/ic_security"
+            android:title="@string/PrivacyPolicy"
+            android:menuCategory="secondary"/>
+        <item
+            android:id="@+id/nav_register_lodge"
+            android:icon="@drawable/ic_store_24"
+            android:menuCategory="secondary"
+            android:title="Register Your Lodge" />
+
+    </group>
+
+
+
+
+</menu>

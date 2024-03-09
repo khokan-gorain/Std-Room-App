@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/layout_background"
+    android:clickable="true"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Std_Room.Fragment.TeacherSignupTabFragment">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dim_30dp"
+        android:orientation="vertical">
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/dim_20dp"
+            android:layout_marginLeft="@dimen/dim_20dp"
+            android:focusable="true"
+            app:startIconDrawable="@drawable/ic_baseline_account_circle_24"
+            android:focusableInTouchMode="true">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/thr_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Name"
+                android:ems="10"
+                android:textSize="@dimen/dim_16sp"
+                android:inputType="text" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/dim_20dp"
+            android:layout_marginLeft="@dimen/dim_20dp"
+            android:layout_marginTop="@dimen/dim_20dp"
+            android:focusable="true"
+            app:startIconDrawable="@drawable/ic_call"
+            android:focusableInTouchMode="true"
+            app:prefixText="+91">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/thr_phone_no"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Phone Number"
+                android:ems="10"
+                android:textSize="@dimen/dim_16sp"
+                android:inputType="number" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <LinearLayout
+            android:id="@+id/otp_lyt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/dim_20dp"
+            android:orientation="horizontal"
+            android:visibility="gone">
+            <EditText
+                android:id="@+id/etC1"
+                android:textColorHint="@color/color_primary"
+                android:textColor="@color/color_primary"
+                android:layout_width="@dimen/dim_45dp"
+                android:layout_height="@dimen/dim_45dp"
+                android:background="@drawable/teac_otp_box_border"
+                android:gravity="center"
+                android:inputType="phone"
+                android:textSize="@dimen/dim_18sp" />
+
+            <EditText
+                android:id="@+id/etC2"
+                android:textColorHint="@color/color_primary"
+                android:textColor="@color/color_primary"
+                android:layout_width="@dimen/dim_45dp"
+                android:layout_height="@dimen/dim_45dp"
+                android:layout_marginLeft="@dimen/dim_6dp"
+                android:background="@drawable/teac_otp_box_border"
+                android:ems="10"
+                android:gravity="center"
+                android:inputType="phone"
+                android:textSize="@dimen/dim_18sp"
+                />
+
+            <EditText
+                android:id="@+id/etC3"
+                android:textColorHint="@color/color_primary"
+                android:textColor="@color/color_primary"
+                android:layout_width="@dimen/dim_45dp"
+                android:layout_height="@dimen/dim_45dp"
+                android:layout_marginLeft="@dimen/dim_6dp"
+                android:background="@drawable/teac_otp_box_border"
+                android:ems="10"
+                android:gravity="center"
+                android:inputType="phone"
+                android:textSize="@dimen/dim_18sp"
+                />
+
+            <EditText
+                android:id="@+id/etC4"
+                android:cursorVisible="true"
+                android:textColorHint="@color/color_primary"
+                android:textColor="@color/color_primary"
+                android:layout_width="@dimen/dim_45dp"
+                android:layout_height="@dimen/dim_45dp"
+                android:layout_marginLeft="@dimen/dim_6dp"
+                android:background="@drawable/teac_otp_box_border"
+                android:ems="10"
+                android:gravity="center"
+                android:inputType="phone"
+                android:textSize="@dimen/dim_18sp"
+                />
+
+            <EditText
+                android:id="@+id/etC5"
+                android:textColorHint="@color/color_primary"
+                android:textColor="@color/color_primary"
+                android:layout_width="@dimen/dim_45dp"
+                android:layout_height="@dimen/dim_45dp"
+                android:layout_marginLeft="@dimen/dim_6dp"
+                android:background="@drawable/teac_otp_box_border"
+                android:ems="10"
+                android:gravity="center"
+                android:inputType="phone"
+                android:textSize="@dimen/dim_18sp"
+                />
+
+            <EditText
+                android:id="@+id/etC6"
+                android:textColorHint="@color/color_primary"
+                android:textColor="@color/color_primary"
+                android:layout_width="@dimen/dim_45dp"
+                android:layout_height="@dimen/dim_45dp"
+                android:layout_marginLeft="@dimen/dim_6dp"
+                android:background="@drawable/teac_otp_box_border"
+                android:ems="10"
+                android:gravity="center"
+                android:inputType="phone"
+                android:textSize="@dimen/dim_18sp"
+                />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/verify_otp_btn"
+            android:background="@drawable/call_us_to_book_btn"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dim_55dp"
+            android:layout_marginRight="@dimen/dim_20dp"
+            android:layout_marginLeft="@dimen/dim_20dp"
+            android:layout_marginTop="@dimen/dim_30dp"
+            android:text="verify otp"
+            android:visibility="gone"/>
+
+        <Button
+            android:id="@+id/get_otp_btn"
+            android:background="@drawable/call_us_to_book_btn"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dim_55dp"
+            android:layout_marginRight="@dimen/dim_20dp"
+            android:layout_marginLeft="@dimen/dim_20dp"
+            android:layout_marginTop="@dimen/dim_30dp"
+            android:text="get otp"/>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</ScrollView>
+</FrameLayout>

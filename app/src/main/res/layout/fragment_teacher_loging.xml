@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:clickable="true"
+    android:orientation="vertical"
+    android:background="@color/layout_background"
+    tools:context=".Std_Room.Fragment.TeacherLogingFragment">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/thrlogindesign_lyt"
+        android:visibility="visible">
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dim_150dp"
+            android:background="@color/color_primary"
+            android:gravity="center"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="@dimen/dim_70dp"
+                android:layout_height="@dimen/dim_70dp"
+                android:src="@drawable/logo"
+                app:tint="@color/color_white" />
+
+            <TextView
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Welcome to Std-Room"
+                android:layout_marginTop="@dimen/dim_2dp"
+                android:textColor="@color/color_white"
+                android:textSize="@dimen/dim_16sp"/>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="-20dp"
+            android:background="@drawable/teac_login_page_bg"
+            android:orientation="vertical">
+            <androidx.viewpager.widget.ViewPager
+                android:id="@+id/view_pager"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/dim_25dp">
+                <com.google.android.material.tabs.TabLayout
+                    android:id="@+id/tab_lyt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/layout_background">
+
+                </com.google.android.material.tabs.TabLayout>
+            </androidx.viewpager.widget.ViewPager>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/lyt_raplace"
+        android:visibility="gone"/>
+
+</LinearLayout>

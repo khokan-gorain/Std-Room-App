@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/layout_background"
+    android:clickable="true"
+    tools:context=".Std_Room.Fragment.ContactusFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="50dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/color_primary"
+            android:text="HAVE AN ANY QUERY?"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center">
+        </TextView>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="If you have any  query and you want to talk regarding this services, call below or meal me info.stdroom@gmail.com"
+            android:textSize="20sp"
+            android:id="@+id/mail_me"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"/>
+
+        <android.widget.Button
+            android:background="@drawable/call_us_to_book_btn"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:text="Call us"
+            android:textColor="@color/color_white"
+            android:id="@+id/call_us"/>
+
+
+    </LinearLayout>
+
+</FrameLayout>
