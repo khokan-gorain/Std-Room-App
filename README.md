@@ -36,8 +36,52 @@ GOOD NEWS?
 - Know how in one phone call? |
 - Dumka will now be a smart city.
 
-.BOOK A ROOM IN A FLASH
-Just one phone call your room will be booked.
-Download Std-Room app and book your next room today!
+BOOK A ROOM IN A FLASH
+- Just one phone call your room will be booked.
+- Download Std-Room app and book your next room today!
+
+
+
+
+
+![banner](https://github.com/khokan-gorain/Std-Room-Room-Booking-Android-App/assets/118677468/b1ce8898-02eb-4ecd-a275-3feb813cf409)
+
+
+
+![1](https://github.com/khokan-gorain/Std-Room-Room-Booking-Android-App/assets/118677468/749d6a76-ea74-4258-87cf-c9b2fc0f2374)
+
+
+
+![2](https://github.com/khokan-gorain/Std-Room-Room-Booking-Android-App/assets/118677468/dfe6413c-d64f-4832-ae28-f1fc207b331a)
+
+
+
+![3](https://github.com/khokan-gorain/Std-Room-Room-Booking-Android-App/assets/118677468/19b8d816-736d-40a1-b31c-c82dff61ccf4)
+
+
+
+![4](https://github.com/khokan-gorain/Std-Room-Room-Booking-Android-App/assets/118677468/23c5d260-9c9d-4ab1-a122-92ae829a4dfc)
+
+
+
+![5](https://github.com/khokan-gorain/Std-Room-Room-Booking-Android-App/assets/118677468/60ebf74c-96a9-495a-a8aa-f5f3f20f6dad)
+
+
+
+![6](https://github.com/khokan-gorain/Std-Room-Room-Booking-Android-App/assets/118677468/558af0ca-b38a-495b-85ac-2936692c92c3)
+
+
+
+![7](https://github.com/khokan-gorain/Std-Room-Room-Booking-Android-App/assets/118677468/620f3af1-1de7-4a80-9d68-6c5fd04e3856)
+
+
+
+![8](https://github.com/khokan-gorain/Std-Room-Room-Booking-Android-App/assets/118677468/4dbb5f3f-42ec-46fb-a9e6-303f1301c457)
+
+
+
+![play-store-logo-nisi-filters-australia-11](https://github.com/khokan-gorain/Std-Room-Room-Booking-Android-App/assets/118677468/76d27cbc-47a7-4038-91fd-c76d6dff9a0a)
+
+
 
 Thank You !
